@@ -1,0 +1,197 @@
+
+    body {
+  margin: 0;
+   padding:0;
+   background-size: cover;
+}
+
+.zone {
+    font-family: 'Oi', cursive;
+    padding:20px 50px;
+    margin:0px 0px;
+    cursor:pointer;
+    display:inline-block;
+    color:black;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid black;
+    transition: all 0.3s linear;
+    display: flex;
+}
+.zole{
+    font-family: 'Oi', cursive;
+    cursor:pointer;
+    display:inline-block;
+    color:whitesmoke;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+    display: flex;
+
+}
+
+li{
+    list-style-type: none;
+    margin: 0 2vw;
+}
+nav{
+    width: 100vw;
+    padding: 2vh 0.2vw;
+    top:0;
+    position: fixed;
+    
+}
+ul{
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner{
+    display: flex;
+    
+}
+span{
+    font-family: 'Press Start 2P', cursive;
+
+    --animate-duration: 5s;
+}
+
+
+.red{
+    display: flex;
+   background-color: whitesmoke;
+   justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.blue{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-auto-rows: minmax(350px,auto);
+    gap:20px
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+
+}
+
+.box5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+
+}
+.box6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+.box7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+.box8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+
+}
+
+.box1{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box3{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/***********************************************************************
+ *  Green Background
+ **********************************************************************/
+.green{
+    background: black;
+}
+
+/***********************************************************************
+ *  Red Background
+ **********************************************************************/
+
+
+/***********************************************************************
+ *  Yellow Background
+ **********************************************************************/
+.yellow{
+   background: whitesmoke;
+}
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
+.blue{
+   background: whitesmoke;
+}
