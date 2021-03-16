@@ -194,7 +194,7 @@ span{
  *  Yellow Background
  **********************************************************************/
 .yellow{
-   background: linear-gradient(to right,yellow,red);
+   background: linear-gradient(to right,teal,red);
 }
 
 /***********************************************************************
