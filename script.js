@@ -11,6 +11,7 @@ var boxes_bg = document.getElementById("house")
 
     button_bg.style.background = bg()
     button.style.background = bg()
+bottom.style.background = bg()
 boxes.forEach((i)=>{
     i.style.background= bg()
 })
