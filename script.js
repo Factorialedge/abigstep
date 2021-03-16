@@ -1,6 +1,6 @@
 var button = document.querySelector(".button")
  var button_bg = document.querySelector(".red")
- var bottom = document.querySelector(".yellow")
+ var bottom = document.getElementById("bottom")
 var boxes = document.querySelectorAll(".box")
 var nav = document.querySelector(".sea")
 var boxes_bg = document.getElementById("house")
