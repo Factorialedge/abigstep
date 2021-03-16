@@ -77,7 +77,7 @@ span{
     grid-auto-rows: minmax(350px,auto);
     gap:20px;
     background: yellow;
-    justify-items:center;
+   
 }
 
 .box2{
