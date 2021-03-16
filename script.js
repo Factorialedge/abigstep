@@ -49,3 +49,4 @@ boxes_bg.style.background=bg()
 button.addEventListener("click",changecolor)
 
 
+bottom.addEventListener("click",changecolor)
