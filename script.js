@@ -11,13 +11,10 @@ var boxes_bg = document.getElementById("house")
 
     button_bg.style.background = bg()
     button.style.background = bg()
-
 boxes.forEach((i)=>{
     i.style.background= bg()
 })
-
 nav.style.background=bg()
-
 boxes_bg.style.background=bg()
   
  }
